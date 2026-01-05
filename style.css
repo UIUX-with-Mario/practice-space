@@ -1,0 +1,80 @@
+body{
+    color: azure;
+    background-color: #000000;
+    font-family: Arial;
+    padding: 20px;
+}
+header {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr; /* Keeps links centered, button right */
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #000000;
+  border-bottom: 1px solid azure;
+}
+
+/* This targets the container of your links */
+.nav-links {
+  display: flex; 
+  gap: 30px; /* Adjust this number to add more or less space */
+}
+
+/* This makes the links look like navigation items */
+.nav-links a {
+  color: #c7c9cb;
+  text-decoration: none; /* Removes the underline */
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ffffff; /* Glow effect when you hover */
+}
+
+#primary {
+  justify-self: end;
+  /* ... your other button styles ... */
+}
+nav{
+    gap: 30px
+}
+#nav{
+    margin-left: auto;
+    background-color: #0A0E15;
+    color: #ffffff;
+    padding: 12px 20px;
+    border: azure solid 1px;
+    border-radius: 20px;
+}
+h1{
+    font-size: 80px;
+    font-weight: lighter;
+    margin: auto;
+    margin-top: 40px;
+}
+ul{
+    color: #c7c9cb;
+    line-height: 1.5;
+    padding-left: 30px;
+    font-size: 17px;
+}
+#primary{
+    background-color: #92df92;
+    color: #0A0E15;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+}
+#secondary{
+
+    background-color: #0A0E15;
+    color: #ffffff;
+    padding: 12px 20px;
+    border: azure solid 1px;
+    border-radius: 20px;
+}
+p{
+    font-style: italic;
+    font-size: small;
+    font-weight:;
+}
